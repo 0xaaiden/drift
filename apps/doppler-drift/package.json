@@ -1,0 +1,20 @@
+{
+  "name": "doppler",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx -r dotenv/config src/index.ts",
+    "watch": "tsx -r dotenv/config --watch src/index.ts"
+  },
+  "dependencies": {
+    "@delvtech/drift": "^0.0.1-beta.18"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
